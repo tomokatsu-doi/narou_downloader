@@ -1,0 +1,2 @@
+# narou_downloader
+なろう小説を気軽に保存するためのchrome extensionです
