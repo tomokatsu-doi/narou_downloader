@@ -1,0 +1,26 @@
+{
+  "name": "なろうダウンローダー",
+  "version": "1.0",
+  "description": "閲覧中のなろう小説をスムーズにテキスト保存する",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "narou.png",
+      "32": "narou.png",
+      "48": "narou.png",
+      "128": "narou.png"
+    }
+  },
+  "icons": {
+    "16": "narou.png",
+    "32": "narou.png",
+    "48": "narou.png",
+    "128": "narou.png"
+  },
+  "manifest_version": 2
+}
